@@ -99,7 +99,7 @@
     imageline          ( $imagen , $x2/18    , $y2*41/50  , $x2*3/23  , $y2*15/19             , $cFirma                   );
     imageline          ( $imagen , $x2/22    , $y2*42/50  , $x2*3/21  , $y2*4/5               , $cFirma                   );
     //Datos Personales
-    $font = dirname(__FILE__) . '/fuente.TTF';
+    $font = dirname(__FILE__) . '/fuente/fuente.TTF';
     imagettftext       ( $imagen  , $b*2.5 , 0 , $x2*1/50  , $y2*19/21 , $cFirma , $font , "Alexis Bautista Baeza" );
     imagettftext       ( $imagen  , $b*2   , 0 , $x2*1/50  , $y2*47/50 , $cFirma , $font , "1931117642" );
     imagettftext       ( $imagen  , $b*2   , 0 , $x2*1/50  , $y2*49/50 , $cFirma , $font , "Tecnologias Web -- Redes y telecomunicaciones -- UPP" );
