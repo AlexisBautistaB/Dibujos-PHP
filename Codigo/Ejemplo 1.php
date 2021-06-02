@@ -40,5 +40,5 @@
     imagepng ( $imagen );
     // Destructor de imagen
     imagedestroy ( $imagen );
-    ?>
 // -------------------------------------- Termina sección de impresión de imagen -------------------------------------------
+?>
