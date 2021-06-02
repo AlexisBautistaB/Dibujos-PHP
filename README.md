@@ -93,11 +93,15 @@ Está función nos dibuja una elipse a partir de cordenadas de una variable de i
 Ejemplo:<br>
 $imagen = imagecreate(100, 150);<br>
 $colorBlanco = imagecolorallocate($imagen, 255, 255, 255);<br>
-$x1 = 50;<br>
-$y1 = 75;<br>
-$cx = 90;<br>
-$cy = 140;<br>
-<b> imageellipse($imagen, $cx, $cy, $x2, $y2, $colorBlanco);</b><br>
+$puntos = array(<br>
+    10,50,<br>
+    50,10,<br>
+    90,50,<br>
+    90,90,<br>
+    50,130,<br>
+    10,90<br>
+);<br>
+<b> imagepolygon($imagen, $puntos, 6, $colorBlanco);</b><br>
 header ( 'Content-Type:image/png' );// Indica el formato de la imagen <br>
 imagepng ( $imagen );// Crea e imprime imagen en formato PNG <br>
 imagedestroy ( $imagen );// Destructor de imagen <br>
