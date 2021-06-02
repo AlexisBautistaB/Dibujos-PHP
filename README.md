@@ -6,9 +6,9 @@
 Cabe mencionar que en este repositorio no se ocupan todas las funciones para poder hacer dibujos en 2D.<br>
 Para comenzar en los ejemplos que se encuentran en la carpeta Codigo existe una sección de declaración de variables a fin de tener un código más dinamico y en caso de modificar el valor de una variable, el demás codigo se adapte (Diseño responsivo).
 <p align="center"><br>
-<b>Ejemplo 1: </b><a href="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/Codigo/CandyCrush.php"> Lineas y letras</a>
+<b>Ejemplo 1: </b><a href="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/Codigo/Ejemplo%201.php"> Lineas y letras</a>
 <br><img src="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/imagenes/Lineas%20y%20letras.png"><br>
-  <b>Ejemplo 2: </b><a href="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/Codigo/Ejemplo%201.php"> Logotipo de Candy Crush</a>
+  <b>Ejemplo 2: </b><a href="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/Codigo/CandyCrush.php"> Logotipo de Candy Crush</a>
 <br><img src="https://github.com/AlexisBautistaB/Dibujos-PHP/blob/main/imagenes/ic_CandyCrush.png"><br>
 Quizá no sea igual al logotipo original pero es similar</p>
 
